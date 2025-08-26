@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_version": "22.0.0",
+
+  "extends": "@tsconfig/node22/tsconfig.json",
+
+  "compilerOptions": {
+    "lib": ["es2024"],
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+
+  "include": ["src"]
+}
+
